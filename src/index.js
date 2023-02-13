@@ -23,15 +23,18 @@ function App() {
         // return errors;
       >
         <Form>
-          <div> Name </div>
-          <Field name="name" type="text" />
-          <div> Email </div>
-          <Field name="email" type="email" />
-          <div> Password </div>
-          <Field name="password" type="password" />
+          <div> Name: </div>
+            <Field name="name" type="text" />
+          <div> Email: </div>
+            <Field name="email" type="email" />
+          <div> Password: </div>
+            <Field name="password" type="password" />
           <div>
             <button type="submit">Submit</button>
           </div>
+          <div>
+            <checkbox>
+         </div>
         </Form>
       </Formik>
     </div>
